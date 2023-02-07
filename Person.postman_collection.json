@@ -1,0 +1,156 @@
+{
+	"info": {
+		"_postman_id": "18db0062-4319-4014-8f2d-88500b1c7b03",
+		"name": "Person",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25682360"
+	},
+	"item": [
+		{
+			"name": "api/person/3",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lastName\":\"Vallejo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/person/3",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"person",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/person/id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lastName\": \"Vallejo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/person/3",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"person",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/person/id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lastName\": \"Vallejo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/person/3",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"person",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/person/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lastName\": \"Vallejo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/person/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"person",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/person/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lastName\": \"Vallejo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/person/",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"person",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
